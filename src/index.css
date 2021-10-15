@@ -16,6 +16,10 @@ body {
     monospace;
 }
 
+.hand {
+  cursor: pointer;
+}
+
 .btn {
   width: 5rem;
   background: white;
@@ -36,5 +40,7 @@ body {
 }
 
 .btn:disabled {
-  
+  pointer-events: none;
+  color: grey;
+  border: 1px solid grey;
 }

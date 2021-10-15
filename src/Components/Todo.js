@@ -25,12 +25,12 @@ const Todo = () => {
 
   return (
     <div className={`${classes.todos} d-flex flex-column`}>
-      <div className={`d-flex flex-column text-align-center justify-content-center align-items-center`}>
+      <div className={`d-flex flex-column text-align-center justify-content-center align-items-center mb-4`}>
         <label className={classes.todosTitle}>What's up Today?</label>
         <input className={classes.todoInput} type="text" value={listName} onChange={dataHandler} placeholder="Add new todo here..."></input>
-        <button className={`btn`} onClick={itemHandler} disabled={true}>Add</button>
+        <button className={`btn`} onClick={itemHandler} disabled={!listName}>Add</button>
       </div>
-      <ul>
+      <ol>
         {items.map((item, index) => {
           return (
             <TodoItem
@@ -40,7 +40,7 @@ const Todo = () => {
             />
           );
         })}
-      </ul>
+      </ol>
     </div>
   );
 };

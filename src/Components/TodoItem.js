@@ -1,10 +1,15 @@
 import React from "react";
-import classes from './Todo.module.css'
-const TodoItem = ({ item,onClick }) => {
+import classes from "./TodoItem.module.css";
+const TodoItem = ({ item, onClick }) => {
   return (
-    <div className={classes.backgroundcolor}>
-      <li>{item}</li>
-      <button onClick = {onClick}>Delete</button>
+    <div>
+      <li className={`${classes.label}`}>
+        {item}
+        <span
+          className={`${classes.deleteHandler} hand`}
+          onClick={onClick}
+        ></span>
+      </li>
     </div>
   );
 };

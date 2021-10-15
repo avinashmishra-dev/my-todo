@@ -1,0 +1,15 @@
+.label {
+    font-weight: 500;
+}
+
+.deleteHandler {
+    background-image: url('../assets/icons/black.svg');
+    height: 2rem;
+    width: 2rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+    top: 9px;
+}

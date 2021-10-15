@@ -11,6 +11,11 @@
 .todoInput {
     border-radius: 4px;
     padding: 0.25rem 1rem;
+    border: 1px solid grey;
+}
+
+.todoInput:focus {
+    border: 1px solid black;
 }
 
 .todos  .todosTitle, .todoInput {
