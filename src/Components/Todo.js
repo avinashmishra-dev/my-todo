@@ -1,3 +1,4 @@
+import { index } from "mathjs";
 import { useState } from "react";
 import TodoItem from "./TodoItem";
 
@@ -10,10 +11,16 @@ const Todo = () => {
   };
 
   const itemHandler = () => {
-    setItems((oldItem) => {
-      return [...oldItem, listName];
-    });
+    setItems([...items, listName]);
     setListName("");
+  };
+
+  const deleteHandler = (index) => {
+    setItems(
+      items.filter((item, id) => {
+        return id !== index;
+      })
+    );
   };
 
   return (
@@ -25,7 +32,13 @@ const Todo = () => {
         <button onClick={itemHandler}>Add Todo</button>
         <ul>
           {items.map((item, index) => {
-            return <TodoItem key={index} item={item} />;
+            return (
+              <TodoItem
+                key={index}
+                item={item}
+                onClick={() => deleteHandler(index)}
+              />
+            );
           })}
         </ul>
       </div>

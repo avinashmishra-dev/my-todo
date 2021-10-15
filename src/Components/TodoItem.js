@@ -1,8 +1,9 @@
 import React from "react";
-const TodoItem = ({ item }) => {
+const TodoItem = ({ item,onClick }) => {
   return (
     <div>
       <li>{item}</li>
+      <button onClick = {onClick}>Delete</button>
     </div>
   );
 };
