@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/todo-list/static/css/main.83fdb6a9.chunk.css",
+    "main.css": "/todo-list/static/css/main.fae32386.chunk.css",
     "main.js": "/todo-list/static/js/main.26271128.chunk.js",
     "main.js.map": "/todo-list/static/js/main.26271128.chunk.js.map",
     "runtime-main.js": "/todo-list/static/js/runtime-main.e0d591af.js",
@@ -10,7 +10,7 @@
     "static/js/2.ca71cfe6.chunk.js.map": "/todo-list/static/js/2.ca71cfe6.chunk.js.map",
     "index.html": "/todo-list/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/todo-list/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.83fdb6a9.chunk.css.map": "/todo-list/static/css/main.83fdb6a9.chunk.css.map",
+    "static/css/main.fae32386.chunk.css.map": "/todo-list/static/css/main.fae32386.chunk.css.map",
     "static/js/2.ca71cfe6.chunk.js.LICENSE.txt": "/todo-list/static/js/2.ca71cfe6.chunk.js.LICENSE.txt",
     "static/media/TodoItem.module.css": "/todo-list/static/media/black.1129c53a.svg",
     "static/media/App.css": "/todo-list/static/media/stone-background.3754265f.jpg"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.e0d591af.js",
     "static/css/2.d8cb5cde.chunk.css",
     "static/js/2.ca71cfe6.chunk.js",
-    "static/css/main.83fdb6a9.chunk.css",
+    "static/css/main.fae32386.chunk.css",
     "static/js/main.26271128.chunk.js"
   ]
 }
