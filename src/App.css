@@ -1,4 +1,11 @@
 .App {
-  text-align: center;
+    margin: 2rem auto;
+    width : 80%;
+    min-height: 90vh;
+    border: 1px solid rgb(206 197 209);
+    box-shadow: 2px 1px 7px 1px rgb(188 162 162);
+    background-image: url("./assets/images/stone-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }
-

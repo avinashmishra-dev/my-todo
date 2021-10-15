@@ -1,7 +1,8 @@
 import React from "react";
+import classes from './Todo.module.css'
 const TodoItem = ({ item,onClick }) => {
   return (
-    <div>
+    <div className={classes.backgroundcolor}>
       <li>{item}</li>
       <button onClick = {onClick}>Delete</button>
     </div>

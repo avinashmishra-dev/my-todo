@@ -1,0 +1,18 @@
+.todos {
+    padding: 2rem;
+}
+
+.todosTitle {
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.todoInput {
+    border-radius: 4px;
+    padding: 0.25rem 1rem;
+}
+
+.todos  .todosTitle, .todoInput {
+    margin: 0 auto 1rem auto ;
+}

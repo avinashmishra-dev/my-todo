@@ -1,6 +1,6 @@
-import { index } from "mathjs";
 import { useState } from "react";
 import TodoItem from "./TodoItem";
+import classes from "./Todo.module.css";
 
 const Todo = () => {
   const [listName, setListName] = useState("");
@@ -24,24 +24,23 @@ const Todo = () => {
   };
 
   return (
-    <div>
-      <div>
-        <label>Enter Todo</label>
-        <input type="text" value={listName} onChange={dataHandler}></input>
-        <br />
-        <button onClick={itemHandler}>Add Todo</button>
-        <ul>
-          {items.map((item, index) => {
-            return (
-              <TodoItem
-                key={index}
-                item={item}
-                onClick={() => deleteHandler(index)}
-              />
-            );
-          })}
-        </ul>
+    <div className={`${classes.todos} d-flex flex-column`}>
+      <div className={`d-flex flex-column text-align-center justify-content-center align-items-center`}>
+        <label className={classes.todosTitle}>What's up Today?</label>
+        <input className={classes.todoInput} type="text" value={listName} onChange={dataHandler} placeholder="Add new todo here..."></input>
+        <button className={`btn`} onClick={itemHandler} disabled={true}>Add</button>
       </div>
+      <ul>
+        {items.map((item, index) => {
+          return (
+            <TodoItem
+              key={index}
+              item={item}
+              onClick={() => deleteHandler(index)}
+            />
+          );
+        })}
+      </ul>
     </div>
   );
 };
