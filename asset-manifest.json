@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/todo-app/static/css/main.88ed3114.chunk.css",
+    "main.js": "/todo-app/static/js/main.0e40a04a.chunk.js",
+    "main.js.map": "/todo-app/static/js/main.0e40a04a.chunk.js.map",
+    "runtime-main.js": "/todo-app/static/js/runtime-main.ffe0eb86.js",
+    "runtime-main.js.map": "/todo-app/static/js/runtime-main.ffe0eb86.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/todo-app/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.628fe465.chunk.js": "/todo-app/static/js/2.628fe465.chunk.js",
+    "static/js/2.628fe465.chunk.js.map": "/todo-app/static/js/2.628fe465.chunk.js.map",
+    "index.html": "/todo-app/index.html",
+    "static/css/2.d8cb5cde.chunk.css.map": "/todo-app/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.88ed3114.chunk.css.map": "/todo-app/static/css/main.88ed3114.chunk.css.map",
+    "static/js/2.628fe465.chunk.js.LICENSE.txt": "/todo-app/static/js/2.628fe465.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/todo-app/static/media/stone-background.3754265f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffe0eb86.js",
+    "static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.628fe465.chunk.js",
+    "static/css/main.88ed3114.chunk.css",
+    "static/js/main.0e40a04a.chunk.js"
+  ]
+}
